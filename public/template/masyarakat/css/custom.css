@@ -1,0 +1,64 @@
+.category-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Memastikan gambar tetap proporsional */
+}
+
+.item .thumb {
+    width: 100%;
+    height: 200px; /* Atur sesuai keinginan Anda */
+    overflow: hidden; /* Memastikan gambar tidak keluar dari batas */
+}
+
+.item .thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+    .justifikasi-teks {
+        text-align: justify;
+    }
+
+.bg-none {
+    background-color: transparent;
+}
+.card {
+    position: relative;
+    overflow: hidden;
+}
+.mt-4, .my-4{
+    margin-top: 1.5rem !important;
+}
+.boder {
+    border: 1px solid #D5DADD !important;
+}
+.card {
+    position: relative;
+    display: flex;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #F1F4F6;
+    background-clip: border-box;
+    border: 0 solid rgba(33, 33, 33, 0.1245);
+    border-radius: .5rem;
+}
+body {
+    margin: 0;
+    /* font-family: "Inter", sans-serif; */
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #212121;
+    text-align: left;
+    background-color: #fff;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+
